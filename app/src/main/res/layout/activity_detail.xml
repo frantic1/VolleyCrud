@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.frantic.database.DetailActivity">
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:textColor="#01579B"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/detail_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:layout_marginBottom="10dp"
+        android:textColor="#00B8D4"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/detail_faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:layout_marginBottom="10dp"
+        android:textColor="#1A237E"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/detail_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:layout_marginBottom="10dp"
+        android:textColor="#2E7D32"
+        android:text="Name"/>
+
+    <TextView
+        android:id="@+id/detail_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FF9800"
+        android:text="Name"/>
+
+
+</LinearLayout>
